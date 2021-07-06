@@ -1,0 +1,49 @@
+img{
+    width: 100%;
+    
+}
+.container1,.container2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    align-items: center;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    max-width: 25%;
+    height: 650px;
+    box-shadow: 0 0 16px black;
+    align-items: center;
+    overflow-y:auto;
+}
+#box-2,#box-5{
+    height: 700px;
+}
+.heading{
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.text{  
+   font-size: 28px;
+    padding-left: 10px;
+}
+button{
+   border: none;
+   position: relative;
+   width: 60%;
+   align-self: center;
+   background-color: darkgray;
+   padding: 10px;
+   font-size: 20px;
+   color: whitesmoke;
+}
+button:hover{
+   cursor: pointer;
+   background-color: lightslategray;
+   
+}
